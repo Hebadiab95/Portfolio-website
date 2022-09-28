@@ -6,8 +6,8 @@ Primary Color (Purple): #357b70;
 Secondary Color (Orange): #e0b354;
 Black color:  #000;
 White color: #fff;
-you can use the website color-hex.com for more colors
- */
+you can use the website color-hex.com for more colors*/
+
 :root {
 	--primary-color: blueviolet;
 	--secondary-color: #613526;
@@ -58,8 +58,8 @@ a:visited {
 	/*visited link */
 	color:var(--visited-link-color);
 }
-a:hover, a: focus{
-	/*no underlining when hovering over a link */
+a:hover, a:focus{
+	/*no underlining when hovering over a link*/
 	text-decoration: none; 
 }
 a:active {
@@ -162,13 +162,13 @@ text-align: right;
 		grid-template-columns: 1fr 1fr;
 	}
 }
-	@media all and (max-width 750px){
+	@media all and (max-width: 750px){
 		.grid-list{
 			grid-gap: 10px;
 		}
-		.grid-list__item: last-child{
-			grid-column: auto / auto;
-			grid-row: auto / auto;
+		.grid-list__item:last-child{
+			grid-column:auto / auto;
+			grid-row:auto / auto;
 		}
 		h1 {
 			font-size: 22px;
